@@ -1,0 +1,24 @@
+{
+  "name": "jest-explained",
+  "version": "1.0.0",
+  "description": "L'objectif de ce projet est de reproduire les fonctionnalités de jest en vanillaJs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --require ./setup.global.js ./src/app.test.js",
+    "test:watch": "nodemon --require ./setup.global.js ./src/app.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbenard/jest-explained.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbenard/jest-explained/issues"
+  },
+  "homepage": "https://github.com/sbenard/jest-explained#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
